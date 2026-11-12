@@ -1,0 +1,17 @@
+COMPITO PARABOLE — RENDER + GOOGLE FOGLI (senza accesso Google degli studenti)
+
+1. Crea un progetto Google Cloud, abilita Google Sheets API e crea un ACCOUNT DI SERVIZIO.
+2. Genera una chiave JSON dell’account di servizio. NON caricarla su GitHub e NON condividerla con gli studenti.
+3. Apri il tuo Foglio Google e condividilo come Editor con l’indirizzo email dell’account di servizio (client_email del JSON).
+4. Verifica che nel Foglio esistano le schede Consegne e Risposte create dal precedente setup Apps Script.
+5. Crea un repository GitHub PRIVATO e carica app.py, index.html, questions.json, requirements.txt e render.yaml.
+6. Su render.com: New > Web Service > collega il repository. Runtime Python; build: pip install -r requirements.txt; start: gunicorn app:app.
+7. In Render > Environment aggiungi:
+   GOOGLE_SHEET_ID = ID del tuo Foglio Google (parte tra /d/ e /edit nell’URL)
+   GOOGLE_SERVICE_ACCOUNT_JSON = contenuto INTEGRALE del file JSON della chiave (un’unica variabile, non file pubblico)
+8. Salva e fai deploy. Apri https://NOME.onrender.com da una finestra privata. Prova una consegna fittizia e controlla il Foglio.
+9. Per una nuova prova con gli stessi dati elimina la riga di test da Consegne e le 30 righe corrispondenti da Risposte.
+
+ATTENZIONE: chiunque conosca il link può inviare una consegna dichiarando un nome qualsiasi. Il controllo dei duplicati è basato su nome+classe, non è un’autenticazione. Non pubblicare il link prima di testare. Il servizio gratuito Render può impiegare tempo ad avviarsi dopo inattività. La chiave di servizio resta soltanto sul server Render.
+
+Per maggiore protezione in produzione valuta una password di classe e un limite anti-abuso, e rispetta le regole della scuola sul trattamento dei dati degli studenti.

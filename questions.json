@@ -1,0 +1,501 @@
+[
+  {
+    "id": "q01",
+    "type": "single",
+    "prompt": "Qual è la forma normale di una disequazione di secondo grado?",
+    "options": [
+      "ax²+bx+c > 0 (oppure <, ≥, ≤), con a ≠ 0",
+      "ax+b > 0, con a ≠ 0",
+      "ax²+bx+c = 0, con a = 0",
+      "ax²+bx+c > 0, con a = 0"
+    ],
+    "correct": "ax²+bx+c > 0 (oppure <, ≥, ≤), con a ≠ 0",
+    "points": 1,
+    "explanation": "Il primo membro è un trinomio di secondo grado e il secondo è zero."
+  },
+  {
+    "id": "q02",
+    "type": "single",
+    "prompt": "Qual è la formula del discriminante di ax²+bx+c=0?",
+    "options": [
+      "b²−4ac",
+      "b²+4ac",
+      "−b/(2a)",
+      "4ac−b²"
+    ],
+    "correct": "b²−4ac",
+    "points": 1,
+    "explanation": "Δ=b²−4ac."
+  },
+  {
+    "id": "q03",
+    "type": "single",
+    "prompt": "Se Δ>0, l’equazione di secondo grado ha…",
+    "options": [
+      "due soluzioni reali distinte",
+      "una soluzione reale doppia",
+      "nessuna soluzione reale",
+      "sempre x=0"
+    ],
+    "correct": "due soluzioni reali distinte",
+    "points": 1,
+    "explanation": "Il grafico interseca l’asse x in due punti distinti."
+  },
+  {
+    "id": "q04",
+    "type": "single",
+    "prompt": "Se Δ=0, come si comporta la parabola rispetto all’asse x?",
+    "options": [
+      "Lo tocca in un solo punto",
+      "Lo attraversa in due punti distinti",
+      "Non lo incontra",
+      "Coincide con l’asse x"
+    ],
+    "correct": "Lo tocca in un solo punto",
+    "points": 1,
+    "explanation": "La radice è doppia."
+  },
+  {
+    "id": "q05",
+    "type": "single",
+    "prompt": "Se a<0, la parabola y=ax²+bx+c ha…",
+    "options": [
+      "concavità rivolta verso il basso",
+      "concavità rivolta verso l’alto",
+      "sempre due zeri",
+      "sempre Δ<0"
+    ],
+    "correct": "concavità rivolta verso il basso",
+    "points": 1,
+    "explanation": "Il segno di a determina il verso della concavità."
+  },
+  {
+    "id": "q06",
+    "type": "single",
+    "prompt": "Qual è l’ordine corretto per risolvere graficamente una disequazione di secondo grado?",
+    "options": [
+      "Forma normale → equazione associata → parabola → soluzioni",
+      "Parabola → soluzioni → forma normale → equazione",
+      "Equazione associata → soluzioni → forma normale → parabola",
+      "Forma normale → soluzioni → equazione → parabola"
+    ],
+    "correct": "Forma normale → equazione associata → parabola → soluzioni",
+    "points": 2,
+    "explanation": "I quattro passaggi sono quelli concordati in classe."
+  },
+  {
+    "id": "q07",
+    "type": "single",
+    "prompt": "Per risolvere f(x)>0 tramite il grafico di y=f(x), quali ascisse cerchi?",
+    "options": [
+      "Quelle dove la parabola è sopra l’asse x",
+      "Quelle dove la parabola è sotto l’asse x",
+      "Solo quelle delle intersezioni con l’asse x",
+      "Quelle dove x>0, indipendentemente dal grafico"
+    ],
+    "correct": "Quelle dove la parabola è sopra l’asse x",
+    "points": 2,
+    "explanation": "f(x)>0 corrisponde alle ordinate positive."
+  },
+  {
+    "id": "q08",
+    "type": "single",
+    "prompt": "Per risolvere f(x)≤0 tramite il grafico, quali punti consideri?",
+    "options": [
+      "Sotto o sull’asse x",
+      "Solo sopra l’asse x",
+      "Solo sotto l’asse x, esclusi gli zeri",
+      "Solo i punti con ascissa negativa"
+    ],
+    "correct": "Sotto o sull’asse x",
+    "points": 2,
+    "explanation": "Il simbolo ≤ comprende anche gli zeri."
+  },
+  {
+    "id": "q09",
+    "type": "single",
+    "prompt": "Osserva la parabola: che segno ha Δ?",
+    "graph": {
+      "a": 1,
+      "r1": -2,
+      "r2": 3
+    },
+    "options": [
+      "Δ>0",
+      "Δ=0",
+      "Δ<0",
+      "Non è possibile stabilirlo"
+    ],
+    "correct": "Δ>0",
+    "points": 2,
+    "explanation": "Due intersezioni distinte con l’asse x."
+  },
+  {
+    "id": "q10",
+    "type": "single",
+    "prompt": "Osserva la parabola: che segno ha a?",
+    "graph": {
+      "a": -0.7,
+      "r1": -2,
+      "r2": 2
+    },
+    "options": [
+      "a<0",
+      "a>0",
+      "a=0",
+      "Non è possibile stabilirlo"
+    ],
+    "correct": "a<0",
+    "points": 2,
+    "explanation": "La concavità è verso il basso."
+  },
+  {
+    "id": "q11",
+    "type": "single",
+    "prompt": "La parabola rappresentata ha Δ positivo, nullo o negativo?",
+    "graph": {
+      "a": 0.6,
+      "shift": 2
+    },
+    "options": [
+      "Negativo",
+      "Positivo",
+      "Nullo",
+      "Non definito"
+    ],
+    "correct": "Negativo",
+    "points": 2,
+    "explanation": "Non incontra l’asse x."
+  },
+  {
+    "id": "q12",
+    "type": "single",
+    "prompt": "Quale grafico rappresenta y=(x−2)²?",
+    "graphChoices": [
+      {
+        "a": 1,
+        "r1": 2,
+        "r2": 2
+      },
+      {
+        "a": -1,
+        "r1": 2,
+        "r2": 2
+      },
+      {
+        "a": 1,
+        "r1": -2,
+        "r2": -2
+      },
+      {
+        "a": 1,
+        "r1": -2,
+        "r2": 2
+      }
+    ],
+    "options": [
+      "Grafico A",
+      "Grafico B",
+      "Grafico C",
+      "Grafico D"
+    ],
+    "correct": "Grafico A",
+    "points": 2,
+    "explanation": "Concavità verso l’alto e unico zero x=2."
+  },
+  {
+    "id": "q13",
+    "type": "single",
+    "prompt": "Per f(x)=(x−2)², quando vale f(x)>0?",
+    "options": [
+      "Per ogni x≠2",
+      "Solo per x=2",
+      "Per nessun x",
+      "Per ogni x reale"
+    ],
+    "correct": "Per ogni x≠2",
+    "points": 2,
+    "explanation": "Il quadrato è positivo tranne quando la base è zero."
+  },
+  {
+    "id": "q14",
+    "type": "single",
+    "prompt": "Per f(x)=(x−2)², quando vale f(x)<0?",
+    "options": [
+      "Mai",
+      "Solo per x=2",
+      "Per x<2",
+      "Per x>2"
+    ],
+    "correct": "Mai",
+    "points": 2,
+    "explanation": "Un quadrato non può essere negativo."
+  },
+  {
+    "id": "q15",
+    "type": "single",
+    "prompt": "Per f(x)=(x−2)², quando vale f(x)≥0?",
+    "options": [
+      "Per ogni x reale",
+      "Per ogni x≠2",
+      "Solo per x=2",
+      "Mai"
+    ],
+    "correct": "Per ogni x reale",
+    "points": 2,
+    "explanation": "Un quadrato è sempre non negativo."
+  },
+  {
+    "id": "q16",
+    "type": "single",
+    "prompt": "Per f(x)=(x−2)², quando vale f(x)≤0?",
+    "options": [
+      "Solo per x=2",
+      "Per ogni x reale",
+      "Per x<2",
+      "Mai"
+    ],
+    "correct": "Solo per x=2",
+    "points": 2,
+    "explanation": "Il quadrato vale zero soltanto in x=2."
+  },
+  {
+    "id": "q17",
+    "type": "open",
+    "prompt": "Spiega con parole tue perché le soluzioni di (x−2)²>0 e (x−2)²≥0 sono diverse.",
+    "points": 0,
+    "explanation": "La prima esclude x=2, la seconda lo comprende."
+  },
+  {
+    "id": "q18",
+    "type": "single",
+    "prompt": "La parabola y=(x+1)(x−3) ha concavità verso l’alto. Dove il trinomio è negativo?",
+    "graph": {
+      "a": 1,
+      "r1": -1,
+      "r2": 3
+    },
+    "options": [
+      "−1<x<3",
+      "x<−1 oppure x>3",
+      "x≤−1 oppure x≥3",
+      "Per ogni x"
+    ],
+    "correct": "−1<x<3",
+    "points": 2,
+    "explanation": "La parabola è sotto l’asse x tra gli zeri."
+  },
+  {
+    "id": "q19",
+    "type": "single",
+    "prompt": "Per la stessa parabola y=(x+1)(x−3), quando il trinomio è ≥0?",
+    "graph": {
+      "a": 1,
+      "r1": -1,
+      "r2": 3
+    },
+    "options": [
+      "x≤−1 oppure x≥3",
+      "−1≤x≤3",
+      "−1<x<3",
+      "x<−1 oppure x>3"
+    ],
+    "correct": "x≤−1 oppure x≥3",
+    "points": 2,
+    "explanation": "Sono inclusi i due zeri."
+  },
+  {
+    "id": "q20",
+    "type": "single",
+    "prompt": "La parabola rappresentata è sotto l’asse x tra −2 e 1. Qual è la soluzione di f(x)<0?",
+    "graph": {
+      "a": 1,
+      "r1": -2,
+      "r2": 1
+    },
+    "options": [
+      "−2<x<1",
+      "x<−2 oppure x>1",
+      "−2≤x≤1",
+      "x≤−2 oppure x≥1"
+    ],
+    "correct": "−2<x<1",
+    "points": 2,
+    "explanation": "Con <0 gli estremi non sono inclusi."
+  },
+  {
+    "id": "q21",
+    "type": "single",
+    "prompt": "La parabola y=−(x+2)(x−1) è rivolta verso il basso. Quando è positiva?",
+    "graph": {
+      "a": -1,
+      "r1": -2,
+      "r2": 1
+    },
+    "options": [
+      "−2<x<1",
+      "x<−2 oppure x>1",
+      "−2≤x≤1",
+      "Mai"
+    ],
+    "correct": "−2<x<1",
+    "points": 2,
+    "explanation": "Per concavità verso il basso il grafico è sopra l’asse tra le radici."
+  },
+  {
+    "id": "q22",
+    "type": "single",
+    "prompt": "Quale trinomio ha come grafico la parabola mostrata?",
+    "graph": {
+      "a": 1,
+      "r1": -1,
+      "r2": 2
+    },
+    "options": [
+      "x²−x−2",
+      "x²+x−2",
+      "−x²+x+2",
+      "x²−3x+2"
+    ],
+    "correct": "x²−x−2",
+    "points": 2,
+    "explanation": "Gli zeri sono −1 e 2, dunque (x+1)(x−2)."
+  },
+  {
+    "id": "q23",
+    "type": "single",
+    "prompt": "Quale grafico rappresenta y=−(x−1)(x−3)?",
+    "graphChoices": [
+      {
+        "a": -1,
+        "r1": 1,
+        "r2": 3
+      },
+      {
+        "a": 1,
+        "r1": 1,
+        "r2": 3
+      },
+      {
+        "a": -1,
+        "r1": -1,
+        "r2": 3
+      },
+      {
+        "a": -1,
+        "r1": -3,
+        "r2": -1
+      }
+    ],
+    "options": [
+      "Grafico A",
+      "Grafico B",
+      "Grafico C",
+      "Grafico D"
+    ],
+    "correct": "Grafico A",
+    "points": 2,
+    "explanation": "Zeri 1 e 3, concavità verso il basso."
+  },
+  {
+    "id": "q24",
+    "type": "single",
+    "prompt": "La parabola y=x²+4 non incontra l’asse x. Quando vale x²+4>0?",
+    "graph": {
+      "a": 0.7,
+      "shift": 2
+    },
+    "options": [
+      "Per ogni x reale",
+      "Per nessun x",
+      "Solo per x=0",
+      "Solo per x>0"
+    ],
+    "correct": "Per ogni x reale",
+    "points": 2,
+    "explanation": "Il grafico è sempre sopra l’asse x."
+  },
+  {
+    "id": "q25",
+    "type": "single",
+    "prompt": "La parabola y=−x²−1 non incontra l’asse x. Quando vale −x²−1≥0?",
+    "graph": {
+      "a": -0.7,
+      "shift": -2
+    },
+    "options": [
+      "Per nessun x",
+      "Per ogni x reale",
+      "Solo per x=0",
+      "Per x≤0"
+    ],
+    "correct": "Per nessun x",
+    "points": 2,
+    "explanation": "Il grafico è sempre sotto l’asse x."
+  },
+  {
+    "id": "q26",
+    "type": "multi",
+    "prompt": "Seleziona TUTTE le affermazioni corrette su una parabola con a>0 e Δ>0.",
+    "options": [
+      "Ha concavità verso l’alto",
+      "Interseca l’asse x in due punti distinti",
+      "È positiva tra i due zeri",
+      "È negativa tra i due zeri"
+    ],
+    "correct": [
+      "Ha concavità verso l’alto",
+      "Interseca l’asse x in due punti distinti",
+      "È negativa tra i due zeri"
+    ],
+    "points": 3,
+    "explanation": "Per a>0 e Δ>0 il trinomio è negativo fra le radici."
+  },
+  {
+    "id": "q27",
+    "type": "open",
+    "prompt": "Una parabola ha concavità verso il basso e interseca l’asse x in x=−3 e x=2. Scrivi gli intervalli in cui il trinomio è positivo e giustifica.",
+    "points": 0,
+    "explanation": "È positivo per −3<x<2, perché il grafico è sopra l’asse tra le radici."
+  },
+  {
+    "id": "q28",
+    "type": "single",
+    "prompt": "La disequazione 2x²−8x+8≤0 ha come equazione associata 2(x−2)²=0. Qual è la soluzione?",
+    "options": [
+      "x=2",
+      "Ogni x reale",
+      "x≠2",
+      "Nessuna soluzione"
+    ],
+    "correct": "x=2",
+    "points": 3,
+    "explanation": "Un quadrato moltiplicato per 2 è ≤0 solo quando è zero."
+  },
+  {
+    "id": "q29",
+    "type": "open",
+    "prompt": "Descrivi i quattro passaggi che utilizzeresti per risolvere x²−5x+6≥0. Non serve svolgere tutti i calcoli: spiega cosa faresti e come leggeresti il grafico.",
+    "points": 0,
+    "explanation": "Forma normale, equazione associata, grafico schematico con concavità e zeri, lettura dei tratti sopra o sull’asse x."
+  },
+  {
+    "id": "q30",
+    "type": "single",
+    "prompt": "Per la parabola con zeri x=−2 e x=4, concavità verso l’alto, quali sono le soluzioni di f(x)≤0?",
+    "graph": {
+      "a": 0.65,
+      "r1": -2,
+      "r2": 4
+    },
+    "options": [
+      "−2≤x≤4",
+      "−2<x<4",
+      "x≤−2 oppure x≥4",
+      "x<−2 oppure x>4"
+    ],
+    "correct": "−2≤x≤4",
+    "points": 2,
+    "explanation": "La parabola è sotto o sull’asse tra gli zeri, estremi inclusi."
+  }
+]
